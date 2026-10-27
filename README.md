@@ -44,6 +44,8 @@ Small, tested, Apache-2.0 tools from running a fleet of Claude Code agents and l
 |---|---|
 | [llm-rig](https://github.com/decentralizeallengineering/llm-rig) | Run local LLM servers in libvirt VMs with GPU passthrough: bring up, provision, status, benchmark. |
 | [vmlease](https://github.com/decentralizeallengineering/vmlease) | Lease-based libvirt VM orchestration for agent fleets: agents lease, a reaper reclaims, no hand virsh |
+| [gpu-handoff](https://github.com/decentralizeallengineering/gpu-handoff) | Hand a passthrough GPU between a libvirt VM and the Linux host at runtime, no reboot: precheck, dry-run, rollback |
+| [modelstage](https://github.com/decentralizeallengineering/modelstage) | Staged rollout of local LLM model files (GGUF) across machines: sha-verified, health-gated switch, automatic rollback |
 | [gsched](https://github.com/decentralizeallengineering/gsched) | GPU airtime scheduler with leases, plus a queue wrapper that books GPU time. |
 | [jobq](https://github.com/decentralizeallengineering/jobq) | One door for heavy jobs across nodes, each run in its own cgroup slice with limits and a queue. |
 | [rigwatch](https://github.com/decentralizeallengineering/rigwatch) | Homelab GPU and VM safety: temperature guards, VM and GPU leases, RAM guard, heavy-job enforcer, and a boot check for LLM containers that started without CUDA. |
