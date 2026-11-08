@@ -8,7 +8,7 @@ Measure Claude Code usage and spend fewer tokens for the same work.
 
 | repo | what it does |
 |---|---|
-| [pacekeeper](https://github.com/decentralizeallengineering/pacekeeper) | Claude Code usage pacing: 5h and 7d meters from the status line, %/hour targets, budgets, spend by project, and a wind-down hook. |
+| [pacekeeper](https://github.com/decentralizeallengineering/pacekeeper) | Claude Code usage pacing: 5h and 7d meters from the status line (also a one-line model, context and meters status line), %/hour targets, budgets, spend by project, and a wind-down hook. |
 | [turnthrift](https://github.com/decentralizeallengineering/turnthrift) | Fewer turns, shorter replies: burst runs many reads in one call; hooks nudge batching and brevity in Claude Code. |
 | [leanagents](https://github.com/decentralizeallengineering/leanagents) | Route Claude Code subagents to small-prompt agent types and cheaper models automatically. |
 | [autocontext](https://github.com/decentralizeallengineering/autocontext) | Let an agent pick its own context window and autocompact threshold from measured cost and re-reads. |
@@ -24,11 +24,11 @@ Run, schedule and hand over many long-running Claude Code sessions.
 | repo | what it does |
 |---|---|
 | [supra-orchestrator](https://github.com/decentralizeallengineering/supra-orchestrator) | Run a fleet of Claude Code agent sessions from one orchestrator: order ledger, cadence, escalation. |
-| [fleetwarden](https://github.com/decentralizeallengineering/fleetwarden) | Guardrail hooks and a session launcher for running many Claude Code sessions: cadence, agent routing, protected dirs, rm and wait guards, intent injection. |
+| [fleetwarden](https://github.com/decentralizeallengineering/fleetwarden) | Guardrail hooks and a session launcher for running many Claude Code sessions: cadence, agent routing, protected dirs and protected sets, rm, wait, hang and kill guards, a Haiku context cap, intent injection. |
 | [tickwise](https://github.com/decentralizeallengineering/tickwise) | Adaptive tick intervals for long-running agent sessions: slow down when nothing changes, speed up on change. |
-| [diplomat](https://github.com/decentralizeallengineering/diplomat) | One idle agent session per machine: watch, triage alarms, relieve load, CPU efficiency. |
+| [diplomat](https://github.com/decentralizeallengineering/diplomat) | One idle agent session per machine: watch, triage alarms, relieve load, CPU efficiency, plus tmux keepalive and an idle-session backstop. |
 | [opsledger](https://github.com/decentralizeallengineering/opsledger) | Turn a big multi-part order into deduped, deconflicted asks with evidence-backed status and a percent-complete ledger. |
-| [oldest-asks](https://github.com/decentralizeallengineering/oldest-asks) | Find what a person asked their agents for that was never delivered, oldest first, with at most 5 Haiku workers. |
+| [oldest-asks](https://github.com/decentralizeallengineering/oldest-asks) | Find what a person asked their agents for that was never delivered, oldest first, with at most 5 Haiku workers. Includes `hist`, a read-only search of old commits and transcripts before you rebuild something. |
 | [landbot](https://github.com/decentralizeallengineering/landbot) | Local merge queue for AI-agent branches: batch, gate, bisect, land. No CI service needed. |
 | [billet](https://github.com/decentralizeallengineering/billet) | Billet turnover for long-running Claude Code sessions: performance-based degradation check, verified turnover brief, clean successor. |
 
@@ -60,6 +60,12 @@ Run local LLM servers on your own hardware without cooking it.
 | [rigwatch](https://github.com/decentralizeallengineering/rigwatch) | Homelab GPU and VM safety: temperature guards, VM and GPU leases, RAM guard, heavy-job enforcer, and a boot check for LLM containers that started without CUDA. |
 | [nascare](https://github.com/decentralizeallengineering/nascare) | NAS care on Linux: heat policy, spin-down, SMART and pool health, ZFS error-growth alerts. |
 | [corsair-fans](https://github.com/decentralizeallengineering/corsair-fans) | Temperature-driven fan control for a Corsair Commander Core on Linux, using the liquidctl CLI. |
+
+## UI copy checks
+
+| repo | what it does |
+|---|---|
+| [uistrings](https://github.com/decentralizeallengineering/uistrings) | Extract user-visible strings from static HTML and JS and flag filler words, emoji, exclamation marks, long labels and broken text such as `undefined`. |
 
 ## Office files
 
