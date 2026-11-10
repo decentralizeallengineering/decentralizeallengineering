@@ -4,7 +4,7 @@ Small, tested, Apache-2.0 tools from running a fleet of Claude Code agents and l
 
 ## Start here
 
-Five tools that work on their own, each with a copy-paste demo and its real output at the top of the README:
+Five tools that work on their own:
 
 | repo | the problem it solves |
 |---|---|
