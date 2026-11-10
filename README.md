@@ -2,6 +2,18 @@
 
 Small, tested, Apache-2.0 tools from running a fleet of Claude Code agents and local LLMs on our own hardware every day. Mostly standard-library Python. Each repo stands alone, has CI, and has a v0.1.0 release.
 
+## Start here
+
+Five tools that work on their own, each with a copy-paste demo and its real output at the top of the README:
+
+| repo | the problem it solves |
+|---|---|
+| [donegate](https://github.com/decentralizeallengineering/donegate) | Your coding agent says "fixed, tests pass" without running a test. A Stop hook blocks that. |
+| [codeindex](https://github.com/decentralizeallengineering/codeindex) | Agents grep and read whole files to find a definition. One local index answers where, who calls, which tests. |
+| [turnthrift](https://github.com/decentralizeallengineering/turnthrift) | Many small reads cost many model turns. `burst` runs them in one call. |
+| [xlsxops](https://github.com/decentralizeallengineering/xlsxops) | LLM tool calls that edit Excel files safely: JSON-schema tools, checked formulas. |
+| [docxops](https://github.com/decentralizeallengineering/docxops) | LLM tool calls that edit Word files, including a real table of contents. |
+
 ## Agent cost and usage
 
 Measure Claude Code usage and spend fewer tokens for the same work.
