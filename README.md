@@ -2,6 +2,14 @@
 
 Small, tested, Apache-2.0 tools from running a fleet of Claude Code agents and local LLMs on our own hardware every day. Mostly standard-library Python. Each repo stands alone, has CI, and has a v0.1.0 release.
 
+## Install as Claude Code plugins
+
+    claude plugin marketplace add decentralizeallengineering/decentralizeallengineering
+    claude plugin install zoomout@decentralizeallengineering
+    claude plugin install codeindex@decentralizeallengineering
+
+zoomout: step back when an agent is stuck. codeindex: where is it defined, who calls it, which tests cover it (skill plus MCP server).
+
 ## Start here
 
 Five tools that work on their own:

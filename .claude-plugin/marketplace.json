@@ -1,0 +1,19 @@
+{
+  "name": "decentralizeallengineering",
+  "description": "Claude Code plugins from decentralizeallengineering",
+  "owner": {"name": "decentralizeallengineering"},
+  "plugins": [
+    {
+      "name": "zoomout",
+      "description": "Step back when an agent is stuck: compare with how experts work, then CONTINUE, PIVOT or SIMPLIFY.",
+      "version": "0.2.0",
+      "source": {"source": "github", "repo": "decentralizeallengineering/zoomout", "ref": "v0.2.0"}
+    },
+    {
+      "name": "codeindex",
+      "description": "Local code index for coding agents: where it is defined, who calls it, which tests cover it. Skill plus MCP server.",
+      "version": "0.2.0",
+      "source": {"source": "github", "repo": "decentralizeallengineering/codeindex", "ref": "v0.2.0"}
+    }
+  ]
+}
