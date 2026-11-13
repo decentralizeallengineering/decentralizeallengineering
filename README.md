@@ -81,6 +81,7 @@ Python tools install with `pip install git+https://github.com/decentralizealleng
 | repo | what it does |
 |---|---|
 | [trash30](https://github.com/decentralizeallengineering/trash30) | A trash folder that empties itself after 30 days. |
+| [addonly](https://github.com/decentralizeallengineering/addonly) | Put a file into a folder you only ever add to; never overwrites. |
 | [uistrings](https://github.com/decentralizeallengineering/uistrings) | Pull UI strings from HTML and JS; flag filler, emoji, long labels. |
 
 Issues and pull requests are welcome on each repo. License: Apache-2.0.
